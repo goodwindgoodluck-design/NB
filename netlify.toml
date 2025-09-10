@@ -1,0 +1,12 @@
+[build]
+command = "npm ci --prefix web && VITE_BASE=/ npm run build --prefix web"
+publish = "docs"
+
+[build.environment]
+NODE_VERSION = "20"
+
+# 如使用前端路由，取消注释以下内容
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
