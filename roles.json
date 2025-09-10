@@ -1,0 +1,20 @@
+{
+  "roles": [
+    {
+      "id": "guest",
+      "name": "访客",
+      "permissions": ["read"]
+    },
+    {
+      "id": "user",
+      "name": "用户",
+      "permissions": ["read", "comment"]
+    },
+    {
+      "id": "admin",
+      "name": "管理员",
+      "permissions": ["read", "comment", "write", "manage"]
+    }
+  ]
+}
+
